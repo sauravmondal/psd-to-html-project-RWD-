@@ -1,0 +1,279 @@
+/* RESET CODE*/
+*{
+	margin: 0;
+	padding: 0;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
+}
+/* Global Section */
+body{
+    font-family: 'roboto', sans-serif;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+p{
+    line-height: 25px;
+}
+
+/* first section */
+#slider{
+    background: url(../images/onu-background.jpg) no-repeat;
+    background-size:cover;
+	/* background-position:center center; */
+	background-attachment:fixed;
+}
+.overlay{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.slider-top{
+    margin-top: 20px;
+    padding: 10px;
+    margin: 20px 0;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.menu{
+    /* width: 80%; */
+    float: right;
+    margin-top: 30px;
+    /* padding: 20px 0; */
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    display: inline-block;
+    margin-bottom: 20px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+    color: greenyellow;
+}
+.slider-content{
+    text-align: center;
+    padding: 150px 0;
+    color: white;
+}
+.slider-content h2{
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.slider-content h1{
+    font-size: 67px;    /* 75px; */
+    border-style: solid;
+    padding: 20px 30px;
+    max-width: 500px;
+    /* display: inline-block; */
+    margin: 0 auto;
+}
+.slider-content h1 span{
+    color: yellowgreen;
+}
+.slider-content h3{
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+/* 2nd/about-us section */
+
+#about-us{
+    padding: 80px 0;
+}
+.about-top{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-top h2{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.about-top p{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.about-content{
+    text-align: center;
+}
+.about{
+    float: left;
+    width: 25%;
+    padding: 20px 0;
+}
+.about i{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.about h2{
+    text-transform: uppercase;
+}
+.about p{
+    padding: 5px;
+}
+.about:hover i,
+.about:hover h2{
+    color: yellowgreen;
+}
+
+/* 3rd section/service section */
+
+#services{
+    padding: 80px 0;
+    background-color: beige;
+}
+.services{
+    color: silver;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.services h1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.services p{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.service-content{
+
+}
+.ser-img{
+    width: 25%;
+    float: left;
+    margin-bottom: 20px;
+    padding-right: 15px;
+}
+.ser-img img{
+    padding-right: 10px;
+    width: 100%;
+}
+/* 4th-section/contact-us */
+#contact-us{
+    padding: 60px 0;
+}
+.contact-top{
+    text-align: center;
+}
+.contact-top h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.contact-top p{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.contact-information{
+
+}
+.contact-info{
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin: 30px 0px;
+}
+.contact-info i{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.contact-info h1{
+    margin-bottom: 10px;
+}
+.contact-info:hover{
+    color: greenyellow;
+}
+
+form{
+    clear: both;
+}
+.contact-form{
+    width: 50%;
+    float: left;
+    padding-right: 15px;    
+}
+.contact-form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.message-form{
+    width: 50%;
+    float: right;
+}
+.message-form textarea{
+    height: 100px;
+    width: 100%;
+    padding: 25px;
+}
+.message-form input{
+    height: 40px;
+    width: 130px;
+    padding: 15px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.message-form input:hover{
+    background: greenyellow;
+    color: white;
+    border: none;
+}
+/* 5th-section/socal */
+.socal{
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+.socal-icons{
+
+}
+.socal-icons i{
+    color: white;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.fa-facebook-f{
+    background-color: #3a5695;
+}
+.fa-google-plus{
+    background-color: #cd3c2a;
+}
+.fa-linkedin-in{
+    background-color: #007bb6;
+}
+.fa-twitter{
+    background-color: #5ea9dd;
+}
+.fa-skype{
+    background-color: #00aff0;
+}
+.fa-dribbble{
+    background-color: #03a651;
+}
+/* footer */
+footer{
+    text-align: center;
+    padding: 20px 0;
+}

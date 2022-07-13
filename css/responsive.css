@@ -1,0 +1,31 @@
+/* RWD */
+
+@media screen and (max-width:768px){
+    .about{
+        width: 50%;
+    }
+    .ser-img{
+        width: 50%;
+    }
+    .contact-info{
+        width: 50%;
+    }
+}
+@media screen and (max-width:480px){
+    .about{
+        width: 100%;
+    }
+    .ser-img{
+        width: 100%;
+    }
+    .contact-info{
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+        padding-right: 0;
+    }
+    .message-form{
+        width: 100%;
+    }
+}
